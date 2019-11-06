@@ -23,7 +23,7 @@ class DetailsScreen extends React.Component {
     }
 }
 
-// const AppNavigator = createStackNavigator(
+//Signed Out Routes
 const SignedOut = createStackNavigator(
     {
         Home: HomeScreen,
@@ -35,7 +35,7 @@ const SignedOut = createStackNavigator(
 );
 
 
-//Signed In  Routes
+//Signed In Routes
 class Tour1Screen extends React.Component {
     render() {
         return (
@@ -77,5 +77,4 @@ const SignedIn = createStackNavigator(
     }
 );
 
-// export default createAppContainer(AppNavigator);
 export default createAppContainer(SignedIn);
